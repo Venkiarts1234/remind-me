@@ -1,0 +1,22 @@
+<!---<?php
+
+    session_start();
+    if (!$_SESSION['user'] || !$_SESSION["userlevel"]=="intermediate") {
+        header("Location:index.php");
+    }
+?>
+-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>This is Medium Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="box">
+    <p><b>Welcome to Medium Page </b></p>
+    <a href="logout.php">Logout</a>
+    </div>
+  </body>
+</html>
