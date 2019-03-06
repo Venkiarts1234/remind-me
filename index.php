@@ -1,4 +1,5 @@
 <?php
+ echo 'Meta tags added';
  include './classes/user.class.php';
  session_start();
  $user = new User;
